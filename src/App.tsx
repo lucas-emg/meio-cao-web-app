@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import HomeBackground from './components/home_comps/homeBackground';
+import './components/home_comps/home_styling.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <HomeBackground
+        left={true}>
+        <h1>MEIO CÃO</h1> 
+      </HomeBackground>
+      <HomeBackground
+        left={true}>
+        <h1>MEIO CÃO</h1> 
+      </HomeBackground>
     </div>
   );
 }
